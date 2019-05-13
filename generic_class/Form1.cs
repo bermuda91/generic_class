@@ -61,7 +61,7 @@ namespace generic_class
             h.ilaclar.Add(a);   // Bunun çalışabilmesi için, hasta sınıfında ctor yazmak lazım. Çünkü ilaçların 1 kere new lenmesi lazım.      
             foreach (var item in h.ilaclar)
             {
-                MessageBox.Show(item.kullanim_Yontemi);
+                MessageBox.Show(item.kullanim_Yontemi);  // burada mesajboxta  "su ile" mesajı görünür.
             }
 
             
